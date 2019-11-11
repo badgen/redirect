@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": "badgen",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://badgen.net/$1" }
+    }
+  ]
+}
